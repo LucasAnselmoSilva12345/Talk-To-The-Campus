@@ -1,0 +1,49 @@
+.containerGeneral {
+  background-color: #1b1d24;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .image img {
+      width: 180px;
+    }
+
+    .navigation {
+      ul {
+        display: flex;
+        gap: 25px;
+
+        a {
+          color: #d9ecff;
+
+          font-size: 20px;
+          padding: 10px;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 586px) {
+      max-width: 100%;
+      flex-direction: column;
+      padding-bottom: 10px;
+      .navigation {
+        ul {
+          gap: 5px;
+
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

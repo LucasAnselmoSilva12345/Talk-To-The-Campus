@@ -1,5 +1,9 @@
+import { Routes } from './routes';
+
+import './styles/global.css';
+
 function App() {
-  return <h1>Hello Word</h1>;
+  return <Routes />;
 }
 
 export default App;

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #101114;
+  color: #d9ecff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
