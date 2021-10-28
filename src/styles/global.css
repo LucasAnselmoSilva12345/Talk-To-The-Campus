@@ -1,3 +1,25 @@
+:root {
+  /* Colors Dark Theme Swatches */
+  --DarkTheme_1: #101114;
+  --DarkTheme_2: #1b1d24;
+  --DarkTheme_3: #1e2129;
+  --DarkTheme_4: #22252e;
+  --DarkTheme_5: #252933;
+
+  /* Colors Blue Theme Swatches */
+  --BlueTheme_1: #2c3e50;
+  --BlueTheme_2: #d9ecff;
+  --BlueTheme_3: #8cc6ff;
+  --BlueTheme_4: #6c757f;
+  --BlueTheme_5: #709ecc;
+
+  /* Color White Theme Swatches */
+  --WhiteTheme_1: #f2f2f2;
+  --WhiteTheme_2: #d9d9d9;
+  --WhiteTheme_3: #8c8c8c;
+  --WhiteTheme_4: #595959;
+  --WhiteTheme_5: #404040;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +29,8 @@
 }
 
 body {
-  background-color: #101114;
-  color: #d9ecff;
+  background-color: var(--DarkTheme_1);
+  color: var(--BlueTheme_2);
 }
 
 a {
@@ -17,4 +39,20 @@ a {
 
 li {
   list-style: none;
+}
+
+::-webkit-scrollbar {
+  /* largura e altura */
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* fundo */
+  background: var(--DarkTheme_2);
+}
+
+::-webkit-scrollbar-thumb {
+  /* fundo onde a barra está */
+  background: var(--BlueTheme_1);
 }
