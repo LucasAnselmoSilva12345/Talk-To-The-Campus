@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Header } from '../../components/Header';
+import { DesktopPresentation } from '../../components/DesktopPresentation';
 
 import { VscArrowRight, VscDeviceMobile } from 'react-icons/vsc';
 
@@ -23,6 +24,7 @@ export function Home() {
           </Link>
         </div>
       </main>
+      <DesktopPresentation />
     </>
   );
 }
