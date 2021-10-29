@@ -5,6 +5,7 @@ import { DesktopPresentation } from '../../components/DesktopPresentation';
 import { VscArrowRight, VscDeviceMobile } from 'react-icons/vsc';
 
 import style from './style.module.scss';
+import { DesktopApplication } from '../../components/DesktopApplication';
 
 export function Home() {
   return (
@@ -25,6 +26,7 @@ export function Home() {
         </div>
       </main>
       <DesktopPresentation />
+      <DesktopApplication />
     </>
   );
 }

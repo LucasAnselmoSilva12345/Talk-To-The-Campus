@@ -1,20 +1,12 @@
-.containerDesktop {
+.containerApplication {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 0;
 
   height: 90vh;
 
   text-align: center;
 
-  .titleSection {
-    h3 {
-      font-size: 36px;
-      font-weight: 500;
-    }
-  }
-
-  .containerContent {
+  .containerContentApplication {
     max-width: 1200px;
     margin: 0 auto;
 
@@ -30,13 +22,13 @@
       height: 40vh;
     }
 
-    .imagem {
+    .imagemApplication {
       img {
         width: 40vw;
       }
     }
 
-    .text {
+    .textApplication {
       h4 {
         margin-bottom: 80px;
 
