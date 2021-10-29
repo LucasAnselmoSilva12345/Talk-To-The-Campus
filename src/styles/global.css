@@ -44,7 +44,7 @@ li {
 ::-webkit-scrollbar {
   /* largura e altura */
   width: 10px;
-  height: 10px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -54,5 +54,6 @@ li {
 
 ::-webkit-scrollbar-thumb {
   /* fundo onde a barra está */
+  border-radius: 16px;
   background: var(--BlueTheme_1);
 }
