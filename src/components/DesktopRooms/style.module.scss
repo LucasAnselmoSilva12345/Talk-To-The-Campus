@@ -1,0 +1,47 @@
+.containerDesktopRooms {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  height: 80vh;
+
+  text-align: center;
+
+  .containerContentRooms {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    .imagemRooms {
+      img {
+        width: 40vw;
+      }
+    }
+
+    .textRooms {
+      h4 {
+        margin-bottom: 80px;
+
+        font-size: 24px;
+        font-weight: 500;
+
+        color: var(--BlueTheme_4);
+      }
+      h2 {
+        margin-bottom: 80px;
+
+        font-size: 40px;
+        font-weight: bold;
+      }
+      span {
+        font-size: 24px;
+        font-weight: 300;
+
+        color: var(--BlueTheme_4);
+      }
+    }
+  }
+}

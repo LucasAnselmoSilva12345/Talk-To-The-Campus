@@ -17,11 +17,6 @@
     justify-content: space-between;
     gap: 25px;
 
-    @media (max-width: 1024px) {
-      flex-direction: column;
-      height: 40vh;
-    }
-
     .imagemApplication {
       img {
         width: 40vw;
@@ -48,20 +43,6 @@
         font-weight: 300;
 
         color: var(--BlueTheme_4);
-      }
-
-      @media (max-width: 1024px) {
-        h4 {
-          font-size: 16px;
-          margin-bottom: 40px;
-        }
-        h2 {
-          font-size: 30px;
-          margin-bottom: 20px;
-        }
-        span {
-          font-size: 18px;
-        }
       }
     }
   }

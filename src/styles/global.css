@@ -14,11 +14,15 @@
   --BlueTheme_5: #709ecc;
 
   /* Color White Theme Swatches */
+  --WhiteTheme_0: #ffffff;
   --WhiteTheme_1: #f2f2f2;
   --WhiteTheme_2: #d9d9d9;
   --WhiteTheme_3: #8c8c8c;
   --WhiteTheme_4: #595959;
   --WhiteTheme_5: #404040;
+
+  /* Color Pink Theme Swatches */
+  --PinkTheme_1: #e91e63;
 }
 * {
   margin: 0;
