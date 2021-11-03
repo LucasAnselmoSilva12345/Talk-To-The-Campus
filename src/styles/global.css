@@ -51,18 +51,15 @@ img {
 }
 
 ::-webkit-scrollbar {
-  /* largura e altura */
   width: 10px;
   height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  /* fundo */
   background: var(--DarkTheme_2);
 }
 
 ::-webkit-scrollbar-thumb {
-  /* fundo onde a barra está */
   border-radius: 16px;
   background: var(--BlueTheme_1);
 }

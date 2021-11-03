@@ -44,4 +44,42 @@
       }
     }
   }
+
+  @media (max-width: 845px) {
+    .containerContentRooms {
+      display: flex;
+      flex-direction: column;
+
+      gap: 25px;
+
+      .textRooms {
+        h4 {
+          margin-bottom: 15px;
+          font-size: 16px;
+        }
+        h2 {
+          margin-bottom: 15px;
+          font-size: 32px;
+        }
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  @media (max-width: 574px) {
+    .containerContentRooms {
+      .textRooms {
+        h2 {
+          font-size: 26px;
+        }
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 502px) {
+    height: 65vh;
+  }
 }
