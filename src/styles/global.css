@@ -23,6 +23,10 @@
 
   /* Color Pink Theme Swatches */
   --PinkTheme_1: #e91e63;
+
+  /* Outher Color's Theme */
+  --PurpleTheme_1: #a381ff;
+  --AquamarineTheme_1: #66d9eb;
 }
 * {
   margin: 0;

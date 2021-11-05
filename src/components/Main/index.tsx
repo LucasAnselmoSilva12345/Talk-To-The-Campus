@@ -14,7 +14,7 @@ export function Main() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">Sobre</Link>
+                <Link to="/about">Sobre</Link>
               </li>
               <li>
                 <Link to="/">Equipe</Link>

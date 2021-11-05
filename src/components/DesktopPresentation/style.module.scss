@@ -9,7 +9,7 @@
 
   .titleSection {
     h3 {
-      font-size: 36px;
+      font-size: 2.25rem;
       font-weight: 500;
     }
   }
@@ -35,7 +35,7 @@
       h4 {
         margin-bottom: 80px;
 
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 500;
 
         color: var(--BlueTheme_4);
@@ -43,11 +43,11 @@
       h2 {
         margin-bottom: 80px;
 
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: bold;
       }
       span {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 300;
 
         color: var(--BlueTheme_4);
@@ -58,7 +58,7 @@
   @media (max-width: 845px) {
     .titleSection {
       h3 {
-        font-size: 26px;
+        font-size: 1.625rem;
         margin-bottom: 55px;
       }
     }
@@ -72,14 +72,14 @@
       .text {
         h4 {
           margin-bottom: 15px;
-          font-size: 16px;
+          font-size: 1rem;
         }
         h2 {
           margin-bottom: 15px;
-          font-size: 32px;
+          font-size: 2rem;
         }
         span {
-          font-size: 18px;
+          font-size: 1.125rem;
         }
       }
     }
@@ -89,10 +89,10 @@
     .containerContent {
       .text {
         h2 {
-          font-size: 26px;
+          font-size: 1.625rem;
         }
         span {
-          font-size: 16px;
+          font-size: 1rem;
         }
       }
     }

@@ -1,0 +1,80 @@
+.motivationalPhraseBg {
+  background: var(--DarkTheme_5);
+  color: var(--WhiteTheme_0);
+
+  .motivationalPhrase {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+
+    span {
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.75rem;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+
+  @media (max-width: 706px) {
+    .motivationalPhrase {
+      justify-content: center;
+      padding: 15px 0;
+
+      span {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.headerBg {
+  background: var(--DarkTheme_2);
+
+  .header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerLogo {
+      a {
+        font-size: 2.25rem;
+        font-weight: bold;
+        margin: 0 10px;
+
+        color: var(--WhiteTheme_1);
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        a {
+          font-size: 1.25rem;
+          display: block;
+          padding: 10px;
+
+          color: var(--WhiteTheme_1);
+          transition: 0.3s;
+
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}
