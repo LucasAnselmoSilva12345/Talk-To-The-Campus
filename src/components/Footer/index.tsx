@@ -51,7 +51,7 @@ export function Footer() {
           </div>
 
           <div className={styles.footerCol}>
-            <h4>Sobre a plataforma</h4>
+            <h4>A plataforma</h4>
             <ul>
               <li>
                 <Link to="/"> Documentação </Link>
@@ -69,7 +69,7 @@ export function Footer() {
           </div>
 
           <div className={styles.footerCol}>
-            <h4>Sobre a plataforma</h4>
+            <h4>Redes Sociais</h4>
             <div className={styles.socialLink}>
               <Link to="/">
                 {' '}

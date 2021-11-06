@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 1.5625rem;
 
   text-align: center;
 
@@ -17,7 +17,7 @@
       color: var(--WhiteTheme_1);
       font-size: 2.5rem;
       font-weight: bold;
-      line-height: 60px;
+      line-height: 3.75rem;
     }
 
     p {
@@ -29,15 +29,15 @@
 
   .containerHorizontalBarButton {
     display: flex;
-    gap: 25px;
+    gap: 1.5625rem;
 
     a {
       display: flex;
       align-items: center;
-      padding: 20px 30px;
-      gap: 8px;
+      padding: 1.25rem 1.875rem;
+      gap: 0.5rem;
 
-      border-radius: 16px;
+      border-radius: 1rem;
 
       color: var(--WhiteTheme_1);
 
@@ -57,11 +57,11 @@
     }
   }
 
-  @media (max-width: 728px) {
+  @media (max-width: 45.5rem) {
     .containerHorizontalBarText {
       h2 {
         font-size: 2rem;
-        line-height: 60px;
+        line-height: 3.75rem;
       }
       p {
         font-size: 1.125rem;
@@ -70,15 +70,15 @@
 
     .containerHorizontalBarButton {
       display: flex;
-      gap: 25px;
+      gap: 1.5625rem;
 
       a {
-        padding: 18px 30px;
+        padding: 1.125rem 1.875rem;
       }
     }
   }
 
-  @media (max-width: 574px) {
+  @media (max-width: 35.875rem) {
     .containerHorizontalBarText {
       h2 {
         font-size: 1.625rem;

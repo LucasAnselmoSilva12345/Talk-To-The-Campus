@@ -1,5 +1,5 @@
 .containerApplication {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 
   height: 90vh;
@@ -7,7 +7,7 @@
   text-align: center;
 
   .containerContentApplication {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 
     height: 80vh;
@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
+    gap: 1.5625rem;
 
     .imagemApplication {
       img {
@@ -25,7 +25,7 @@
 
     .textApplication {
       h4 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
 
         font-size: 1.5rem;
         font-weight: 500;
@@ -33,7 +33,7 @@
         color: var(--BlueTheme_4);
       }
       h2 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
 
         font-size: 2.5rem;
         font-weight: bold;
@@ -47,13 +47,13 @@
     }
   }
 
-  @media (max-width: 845px) {
+  @media (max-width: 52.8125rem) {
     .containerContentApplication {
       height: 60vh;
 
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      gap: 1.5625rem;
 
       .imagemApplication {
         img {
@@ -64,11 +64,11 @@
       .textApplication {
         h4 {
           font-size: 1rem;
-          margin: 40px 0 15px;
+          margin: 2.5rem 0 0.9375rem;
         }
         h2 {
           font-size: 2rem;
-          margin-bottom: 15px;
+          margin-bottom: 0.9375rem;
         }
         span {
           font-size: 1.125rem;
@@ -77,7 +77,7 @@
     }
   }
 
-  @media (max-width: 574px) {
+  @media (max-width: 35.875rem) {
     height: 80vh;
     .containerContentApplication {
       .textApplication {

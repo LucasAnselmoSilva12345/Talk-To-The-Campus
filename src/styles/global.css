@@ -55,8 +55,8 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 12px;
+  width: 0.625rem;
+  height: 0.75rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -64,6 +64,6 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 16px;
+  border-radius: 1rem;
   background: var(--BlueTheme_1);
 }

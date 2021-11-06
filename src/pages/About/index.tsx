@@ -15,16 +15,19 @@ export function About() {
         <div className={styles.aboutInfo}>
           <h1>Sobre nossa aplicação</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            quod explicabo ea voluptatibus quibusdam, perspiciatis animi
-            corporis quam ipsum iure eum nemo ratione nostrum praesentium error
-            ex, veritatis earum assumenda!
+            O objetivo da plataforma é permite que as instituições de ensino
+            (faculdades, escolas tecnicas), possam conectar seus alunos, junto
+            com os futuros alunos ingressantes, afim de proporciona uma iteração
+            direta de alunos para aluno, na intenção, que o futuro estudante,
+            possa retirar duvida que ele tem sobre seu futuro curso, ou qualquer
+            duvida relacionado do tipo.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ipsam!
-            Cupiditate id, excepturi atque quaerat, molestiae eveniet unde minus
-            quas sapiente accusamus voluptas quod ipsum quisquam recusandae hic
-            fuga quia.
+            A intenção dessa iteração, e permite que o aluno ingressante, tenha
+            total ciencia de que o curso desejado por ele, é de fato o que ele
+            imagina e além de retirar as duvidas, motivar ainda mais o aluno a
+            querer prestar os vestibulares para entrar no campus e estudar o
+            curso.
           </p>
         </div>
         <div className={styles.aboutImg}>

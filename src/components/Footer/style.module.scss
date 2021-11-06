@@ -1,9 +1,9 @@
 .footer {
   background-color: var(--DarkTheme_1);
-  padding: 70px 0;
+  padding: 4.375rem 0;
 
   .container {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
 
     .row {
@@ -12,12 +12,12 @@
 
       .footerCol {
         width: 25%;
-        padding: 0 15px;
+        padding: 0 0.9375rem;
 
         h4 {
           font-size: 1.125rem;
           text-transform: capitalize;
-          margin-bottom: 35px;
+          margin-bottom: 2.1875rem;
           font-weight: 500;
           position: relative;
 
@@ -25,17 +25,17 @@
             content: '';
             position: absolute;
             left: 0;
-            bottom: -10px;
+            bottom: -0.625rem;
             background: var(--PinkTheme_1);
-            height: 2px;
-            width: 50px;
+            height: 0.125rem;
+            width: 3.125rem;
           }
         }
 
         ul {
           li {
             &:not(:last-child) {
-              margin-bottom: 10px;
+              margin-bottom: 0.625rem;
             }
 
             a {
@@ -48,7 +48,7 @@
 
               &:hover {
                 color: var(--WhiteTheme_0);
-                padding-left: 8px;
+                padding-left: 0.5rem;
               }
             }
           }
@@ -59,26 +59,26 @@
           align-items: center;
           justify-content: left;
           svg {
-            height: 30px;
-            width: 30px;
-            margin: 0 10px 10px 0;
+            height: 1.875rem;
+            width: 1.875rem;
+            margin: 0 0.625rem 0.625rem 0;
             text-align: center;
-            line-height: 40px;
+            line-height: 2.5rem;
             color: var(--WhiteTheme_0);
             transition: all 0.5s ease;
 
             &:hover {
-              padding-top: 8px;
+              padding-top: 0.5rem;
             }
           }
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 47.9375rem) {
           width: 50%;
-          margin-bottom: 30px;
+          margin-bottom: 1.875rem;
         }
 
-        @media (max-width: 574px) {
+        @media (max-width: 35.875rem) {
           width: 100%;
         }
       }

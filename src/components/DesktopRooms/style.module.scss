@@ -1,5 +1,5 @@
 .containerDesktopRooms {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 
   height: 80vh;
@@ -7,13 +7,13 @@
   text-align: center;
 
   .containerContentRooms {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
+    gap: 1.5625rem;
 
     .imagemRooms {
       img {
@@ -23,7 +23,7 @@
 
     .textRooms {
       h4 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
 
         font-size: 1.5rem;
         font-weight: 500;
@@ -31,7 +31,7 @@
         color: var(--BlueTheme_4);
       }
       h2 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
 
         font-size: 2.5rem;
         font-weight: bold;
@@ -45,20 +45,20 @@
     }
   }
 
-  @media (max-width: 845px) {
+  @media (max-width: 52.8125rem) {
     .containerContentRooms {
       display: flex;
       flex-direction: column;
 
-      gap: 25px;
+      gap: 1.5625rem;
 
       .textRooms {
         h4 {
-          margin-bottom: 15px;
+          margin-bottom: 0.9375rem;
           font-size: 1rem;
         }
         h2 {
-          margin-bottom: 15px;
+          margin-bottom: 0.9375rem;
           font-size: 2rem;
         }
         span {
@@ -67,7 +67,7 @@
       }
     }
   }
-  @media (max-width: 574px) {
+  @media (max-width: 35.875rem) {
     .containerContentRooms {
       .textRooms {
         h2 {
@@ -79,7 +79,7 @@
       }
     }
   }
-  @media (max-width: 502px) {
+  @media (max-width: 31.375rem) {
     height: 65vh;
   }
 }
