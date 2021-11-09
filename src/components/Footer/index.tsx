@@ -36,16 +36,16 @@ export function Footer() {
             <h4>Plataforma mobile</h4>
             <ul>
               <li>
-                <Link to="/"> Play Store </Link>
+                <Link to="/app-mobile"> Play Store </Link>
               </li>
               <li>
-                <Link to="/"> Apple Store </Link>
+                <Link to="/app-mobile"> Apple Store </Link>
               </li>
               <li>
-                <Link to="/"> Microsoft Store </Link>
+                <Link to="/app-mobile"> Microsoft Store </Link>
               </li>
               <li>
-                <Link to="/"> Linux Store </Link>
+                <Link to="/app-mobile"> Linux Store </Link>
               </li>
             </ul>
           </div>

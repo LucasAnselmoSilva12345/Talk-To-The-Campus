@@ -16,14 +16,14 @@ export function HorizontalBar() {
           Plataforma
           <RiComputerFill />
         </Link>
-        <a href="/" className={styles.btnPlayStore}>
+        <Link to="/app-mobile" className={styles.btnPlayStore}>
           Play Store
           <DiAndroid />
-        </a>
-        <a href="/" className={styles.btnAppleStore}>
+        </Link>
+        <Link to="/app-mobile" className={styles.btnAppleStore}>
           Apple Store
           <DiApple />
-        </a>
+        </Link>
       </div>
     </div>
   );

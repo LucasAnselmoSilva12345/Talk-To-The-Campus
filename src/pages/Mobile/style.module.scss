@@ -1,0 +1,61 @@
+.containerMobile {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3.75rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .rowMobileButton {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0;
+    text-align: center;
+
+    h3 {
+      font-size: 1.375rem;
+      margin-bottom: 1.25rem;
+    }
+    h4 {
+      font-size: 1rem;
+      margin-bottom: 3.125rem;
+    }
+
+    a {
+      display: inline-block;
+      font-weight: bold;
+      padding: 1.25rem 1.875rem;
+      border-radius: 0.5rem;
+      background-color: var(--PurpleTheme_1);
+      color: var(--BlueTheme_2);
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 0.6;
+      }
+
+      svg {
+        margin-left: 0.3125rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .rowMobileButton {
+      max-width: 700px;
+
+      h3 {
+        font-size: 1.25rem;
+      }
+      h4 {
+        font-size: 0.875rem;
+      }
+    }
+    .rowImage {
+      margin-top: 50px;
+      max-width: 600px;
+    }
+  }
+}
