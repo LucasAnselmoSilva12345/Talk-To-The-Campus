@@ -1,0 +1,26 @@
+.introductionDocumentation {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3.75rem 0;
+  text-align: center;
+
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.sectionDocumentation {
+  border-top: 0.125rem solid var(--BlueTheme_5);
+
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  .rowDocumentation {
+    padding: 0 15px;
+    text-align: justify;
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}

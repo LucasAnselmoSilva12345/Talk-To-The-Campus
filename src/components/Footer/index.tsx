@@ -54,7 +54,7 @@ export function Footer() {
             <h4>A plataforma</h4>
             <ul>
               <li>
-                <Link to="/"> Documentação </Link>
+                <Link to="/documentation"> Documentação </Link>
               </li>
               <li>
                 <Link to="/"> Direitos da plataforma </Link>
