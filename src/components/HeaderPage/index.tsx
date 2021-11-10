@@ -31,7 +31,7 @@ export function HeaderPage() {
                 <Link to="/">Equipe</Link>
               </li>
               <li>
-                <Link to="/">Contato</Link>
+                <Link to="/contact">Contato</Link>
               </li>
             </ul>
           </nav>

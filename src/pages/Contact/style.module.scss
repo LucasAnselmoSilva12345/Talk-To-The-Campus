@@ -1,0 +1,100 @@
+.containerContact {
+  height: 100vh;
+
+  margin-bottom: 3.125rem;
+  color: var(--WhiteTheme_0);
+
+  h1 {
+    max-width: 75rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3.125rem;
+
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .columnContact {
+    max-width: 31.25rem;
+    margin: 0 auto;
+    padding: 3.125rem 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      width: 100%;
+      padding: 1.125rem 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4375rem;
+
+      border-radius: 0.5rem;
+
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--WhiteTheme_0);
+
+      svg {
+        font-size: 1.125rem;
+      }
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    .buttonEmail {
+      background-color: #f2360c;
+    }
+
+    .buttonWhatsapp {
+      background-color: #34af23;
+    }
+
+    .buttonTwitter {
+      background-color: #00aced;
+    }
+
+    .buttonFacebook {
+      background-color: #3b5998;
+    }
+
+    .buttonLinkedin {
+      background-color: #0e76a8;
+    }
+
+    .buttonTelegram {
+      background-color: #0088cc;
+    }
+  }
+
+  @media (max-width: 64rem) {
+    margin-bottom: 6.25rem;
+    h1 {
+      font-size: 1.75rem;
+    }
+    .columnContact {
+      a {
+        font-size: 1rem;
+        svg {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 42.3125rem) {
+    margin-bottom: 8.125rem;
+    .columnContact {
+      a {
+        width: 80%;
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { Home } from './pages/Home/index';
 import { About } from './pages/About/index';
 import { Mobile } from './pages/Mobile/index';
 import { Documentation } from './pages/Documentation/index';
+import { Contact } from './pages/Contact/index';
 
 export function Routes() {
   return (
@@ -12,6 +13,7 @@ export function Routes() {
       <Route path="/about" exact component={About} />
       <Route path="/app-mobile" exact component={Mobile} />
       <Route path="/documentation" exact component={Documentation} />
+      <Route path="/contact" exact component={Contact} />
     </BrowserRouter>
   );
 }
