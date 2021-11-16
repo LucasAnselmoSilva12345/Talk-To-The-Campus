@@ -24,7 +24,7 @@ export function Footer() {
                 <Link to="/about"> Sobre nós </Link>
               </li>
               <li>
-                <Link to="/"> Equipe </Link>
+                <Link to="/team"> Equipe </Link>
               </li>
               <li>
                 <Link to="/contact"> Contato </Link>

@@ -28,7 +28,7 @@ export function HeaderPage() {
                 <Link to="/about">Sobre</Link>
               </li>
               <li>
-                <Link to="/">Equipe</Link>
+                <Link to="/team">Equipe</Link>
               </li>
               <li>
                 <Link to="/contact">Contato</Link>

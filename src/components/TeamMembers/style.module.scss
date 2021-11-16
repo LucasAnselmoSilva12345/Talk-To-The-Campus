@@ -1,0 +1,161 @@
+.section_team {
+  padding: 3.75rem;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    .heading {
+      position: relative;
+      font-size: 2.25rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+
+      &::after {
+        content: '';
+        width: 10rem;
+        height: 0.4rem;
+        background-color: var(--BlueTheme_5);
+        position: absolute;
+        bottom: -1.875rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+      }
+    }
+
+    .card_wrapper {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+
+      .card {
+        width: 32rem;
+
+        background-color: var(--DarkTheme_5);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 2rem 0;
+        box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
+
+        .cardImg {
+          width: 100%;
+          height: 15rem;
+          object-fit: cover;
+
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        }
+
+        .profileImg {
+          width: 15rem;
+          height: 15rem;
+          object-fit: cover;
+          border-radius: 50%;
+          margin-top: -11rem;
+          z-index: 999;
+        }
+
+        h3 {
+          font-size: 1.75rem;
+          margin: 1.5rem 0;
+        }
+
+        .job_title {
+          font-size: 1.25rem;
+          font-weight: 300;
+          width: 85%;
+        }
+
+        .about {
+          font-size: 1rem;
+          font-style: italic;
+          text-align: center;
+          margin: 1.5rem 0;
+          width: 85%;
+        }
+
+        .btnTeam {
+          padding: 1rem 2.5rem;
+          margin: 1rem 0;
+          font-size: 1.4rem;
+          background: var(--DarkTheme_3);
+          color: var(--WhiteTheme_0);
+          border-radius: 2rem;
+          text-transform: uppercase;
+          transition: all 0.5s;
+
+          &:hover {
+            transform: translateY(-5px);
+            opacity: 70%;
+          }
+        }
+
+        .socialMedia {
+          width: 100%;
+
+          display: flex;
+          justify-content: space-evenly;
+          padding: 2rem 0;
+          margin-top: 1.5rem;
+          border-top: 2px solid rgba(0, 0, 0, 0.1);
+
+          li {
+            a {
+              color: var(--WhiteTheme_0);
+              transition: all 0.3s;
+              svg {
+                font-size: 25px;
+              }
+
+              &:hover {
+                opacity: 60%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 520px) {
+    .container {
+      max-width: 350px;
+
+      .heading {
+        font-size: 1.25rem;
+        margin-bottom: 60px;
+      }
+
+      .card_wrapper {
+        .card {
+          width: 21.875rem;
+
+          .profileImg {
+            width: 10rem;
+            height: 10rem;
+          }
+          h3 {
+            font-size: 1.375rem;
+          }
+
+          .job_title {
+            font-size: 1.125rem;
+          }
+
+          .btnTeam {
+            padding: 1rem 2rem;
+            font-size: 1.125rem;
+          }
+        }
+      }
+    }
+  }
+}
