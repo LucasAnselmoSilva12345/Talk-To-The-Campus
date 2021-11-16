@@ -21,13 +21,13 @@ export function Footer() {
                 <Link to="/"> Home </Link>
               </li>
               <li>
-                <Link to="/"> Sobre nós </Link>
+                <Link to="/about"> Sobre nós </Link>
               </li>
               <li>
                 <Link to="/"> Equipe </Link>
               </li>
               <li>
-                <Link to="/"> Contato </Link>
+                <Link to="/contact"> Contato </Link>
               </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ export function Footer() {
                 <Link to="/documentation"> Documentação </Link>
               </li>
               <li>
-                <Link to="/"> Direitos da plataforma </Link>
+                <Link to="/license"> Licença da plataforma </Link>
               </li>
               <li>
                 <Link to="/"> Contribua com a plataforma </Link>
