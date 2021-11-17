@@ -41,10 +41,10 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 48rem) {
     flex-direction: column;
     .rowMobileButton {
-      max-width: 700px;
+      max-width: 43.75rem;
 
       h3 {
         font-size: 1.25rem;
@@ -54,8 +54,8 @@
       }
     }
     .rowImage {
-      margin-top: 50px;
-      max-width: 600px;
+      margin-top: 3.125rem;
+      max-width: 37.5rem;
     }
   }
 }

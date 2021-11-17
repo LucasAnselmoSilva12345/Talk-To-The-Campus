@@ -28,12 +28,8 @@ export function TeamMembers() {
               Frontend Developer && Criador da plataforma
             </p>
             <p className={styles.about}>
-              Conheça mais sobre o Lucas, sobre seu começo na programação e
-              varias curiosidades sobre ele.
+              "Você pode até perder a fé nos outros, mas nunca em si mesmo."
             </p>
-            <Link to="/" className={styles.btnTeam}>
-              Conhecer
-            </Link>
             <ul className={styles.socialMedia}>
               <li>
                 <a href="https://www.facebook.com/lucas.anselmomoraesdasilva">

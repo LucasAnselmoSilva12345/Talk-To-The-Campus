@@ -2,16 +2,16 @@
   padding: 3.75rem;
 
   .container {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     text-align: center;
 
     .heading {
       position: relative;
       font-size: 2.25rem;
-      letter-spacing: 3px;
+      letter-spacing: 0.1875rem;
       text-transform: uppercase;
-      margin-bottom: 60px;
+      margin-bottom: 3.75rem;
 
       &::after {
         content: '';
@@ -93,7 +93,7 @@
           transition: all 0.5s;
 
           &:hover {
-            transform: translateY(-5px);
+            transform: translateY(-0.3125rem);
             opacity: 70%;
           }
         }
@@ -105,14 +105,14 @@
           justify-content: space-evenly;
           padding: 2rem 0;
           margin-top: 1.5rem;
-          border-top: 2px solid rgba(0, 0, 0, 0.1);
+          border-top: 0.125rem solid rgba(0, 0, 0, 0.1);
 
           li {
             a {
               color: var(--WhiteTheme_0);
               transition: all 0.3s;
               svg {
-                font-size: 25px;
+                font-size: 1.5625rem;
               }
 
               &:hover {
@@ -125,13 +125,13 @@
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 32.5rem) {
     .container {
-      max-width: 350px;
+      max-width: 21.875rem;
 
       .heading {
         font-size: 1.25rem;
-        margin-bottom: 60px;
+        margin-bottom: 3.75rem;
       }
 
       .card_wrapper {
