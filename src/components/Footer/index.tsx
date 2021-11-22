@@ -60,7 +60,7 @@ export function Footer() {
                 <Link to="/license"> Licença da plataforma </Link>
               </li>
               <li>
-                <Link to="/"> Contribua com a plataforma </Link>
+                <Link to="/contribute"> Contribua com a plataforma </Link>
               </li>
               <li>
                 <Link to="/"> Ajude a comunidade Open-Source </Link>

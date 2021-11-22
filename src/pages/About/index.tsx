@@ -5,6 +5,7 @@ import ImgAboutOne from '../../assets/about1.jpg';
 import ImgAboutTwo from '../../assets/about2.jpg';
 import { HorizontalBar } from '../../components/HorizontalBar';
 import { Footer } from '../../components/Footer';
+import { Principles } from '../../components/Principles';
 
 export function About() {
   return (
@@ -38,41 +39,11 @@ export function About() {
         </div>
       </section>
 
-      <section className={styles.values}>
-        <div className={styles.valuesItem}>
-          <h2>Missão</h2>
-          <ul>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-          </ul>
-        </div>
-
-        <div className={styles.valuesItem}>
-          <h2>Valores</h2>
-          <ul>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-          </ul>
-        </div>
-
-        <div className={styles.valuesItem}>
-          <h2>Visão</h2>
-          <ul>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-            <li>Teste</li>
-          </ul>
-        </div>
-      </section>
+      <Principles />
 
       <section className={styles.qualities}>
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Nosso objetivo</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa
@@ -82,7 +53,7 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Nossas inteções</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa
@@ -92,7 +63,7 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Nosso futuro</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa
@@ -102,7 +73,7 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Expansão da plataforma</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa
@@ -112,7 +83,7 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Sua colaboração na plataforma</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa
@@ -122,7 +93,7 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>TextoIncrivel</h2>
+          <h2>Nossas contribuições</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             facere doloremque consequuntur officia ab asperiores magnam culpa

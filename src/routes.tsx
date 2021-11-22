@@ -7,6 +7,7 @@ import { Mobile } from './pages/Mobile/index';
 import { Documentation } from './pages/Documentation/index';
 import { License } from './pages/License/index';
 import { Team } from './pages/Team/index';
+import { ContributePlatform } from './pages/ContributePlatform/index';
 
 export function Routes() {
   return (
@@ -14,10 +15,11 @@ export function Routes() {
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/contact" exact component={Contact} />
+      <Route path="/team" exact component={Team} />
       <Route path="/app-mobile" exact component={Mobile} />
       <Route path="/documentation" exact component={Documentation} />
       <Route path="/license" exact component={License} />
-      <Route path="/team" exact component={Team} />
+      <Route path="/contribute" exact component={ContributePlatform} />
     </BrowserRouter>
   );
 }

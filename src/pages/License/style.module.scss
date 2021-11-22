@@ -6,6 +6,10 @@
 
   font-size: 3rem;
   line-height: 1;
+
+  @media (max-width: 32.4375rem) {
+    font-size: 2rem;
+  }
 }
 
 .containerLicense {
@@ -19,9 +23,25 @@
     padding: 0 0.9375rem;
     text-align: justify;
 
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 0.9375rem;
+      text-align: center;
+    }
+
     p {
+      font-size: 1.375rem;
       margin-bottom: 0.9375rem;
       color: var(--WhiteTheme_0);
+    }
+
+    @media (max-width: 32.4375rem) {
+      h3 {
+        font-size: 1.625rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }

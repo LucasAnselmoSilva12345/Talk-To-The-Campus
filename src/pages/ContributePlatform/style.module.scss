@@ -1,0 +1,44 @@
+.introductionContribute {
+  font-size: 3rem;
+  line-height: 1;
+
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3.75rem 0.625rem;
+}
+
+.mainContribute {
+  border-top: 0.125rem solid var(--BlueTheme_5);
+  border-bottom: 0.125rem solid var(--BlueTheme_5);
+
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  .infoContribute {
+    flex: 2 1 18.75rem;
+    margin: 0 0.625rem;
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0.5rem;
+
+      span {
+        color: var(--PurpleTheme_1);
+      }
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .imgContribute {
+    flex: 1 1 10rem;
+    margin: 0 0.625rem;
+  }
+}
