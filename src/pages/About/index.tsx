@@ -1,11 +1,12 @@
 import { HeaderPage } from '../../components/HeaderPage';
-import styles from './style.module.scss';
-
-import ImgAboutOne from '../../assets/about1.jpg';
-import ImgAboutTwo from '../../assets/about2.jpg';
 import { HorizontalBar } from '../../components/HorizontalBar';
 import { Footer } from '../../components/Footer';
 import { Principles } from '../../components/Principles';
+
+import ImgAboutOne from '../../assets/about1.jpg';
+import ImgAboutTwo from '../../assets/about2.jpg';
+
+import styles from './style.module.scss';
 
 export function About() {
   return (
@@ -45,61 +46,63 @@ export function About() {
         <div className={styles.qualitiesItem}>
           <h2>Nosso objetivo</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
+            Contribuir com a comunidade de estudantes que vão prestar os
+            vestibulares, afim de proporcionar uma possibilidade que os alunos
+            conheçam tudo sobre seu curso.
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Nossas inteções</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
+            Permitir a retirada total de duvidas dos futuros alunos em cursos
+            superiores, garantindo que o aluno tenha total certeza de como é o
+            curso desejado e ajudando a faculdade nas divulgações.
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Nosso futuro</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
+            Contribuir com as faculdades locais em nossa região, depois realizar
+            contribuições com todas as faculdade do estado, e mais para frente,
+            todas as faculdade do Brasil
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Expansão da plataforma</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
+            Hoje nossa plataforma só está atendendo em questão de retirada de
+            dúvidas em cursos superiores, porém futuramente, iremos atender as
+            escolas tecnicas e escolas particulares/públicas
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Sua colaboração na plataforma</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
+            Você <span>desenvolvedor</span> pode nos ajudar, contribuindo na
+            nossa plataforma, sugerindo modificações, sugestões. Para contribuir
+            na plataforma, baixe o nosso projeto e faça sua modificações:
+            <ul>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  Site
+                </a>
+              </li>
+              <li>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  Plataforma
+                </a>
+              </li>
+            </ul>
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Nossas contribuições</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            facere doloremque consequuntur officia ab asperiores magnam culpa
-            nemo. Ratione hic voluptas ea ducimus sunt corrupti, facilis quae
-            sed rerum ab.
-          </p>
+          <p>Trabalho de Projeto Interdisciplinar de computação</p>
         </div>
       </section>
 

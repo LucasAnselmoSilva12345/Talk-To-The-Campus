@@ -78,6 +78,23 @@
       line-height: 1.4;
       color: var(--BlueTheme_4);
       text-align: justify;
+
+      span {
+        color: var(--PurpleTheme_1);
+        font-weight: bold;
+      }
+
+      ul {
+        li {
+          a {
+            color: var(--WhiteTheme_0);
+            margin-left: 0.5rem;
+          }
+          & + li {
+            margin-top: 0.5rem;
+          }
+        }
+      }
     }
   }
 }

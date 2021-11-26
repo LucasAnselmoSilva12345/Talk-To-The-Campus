@@ -1,11 +1,13 @@
 import { HeaderPage } from '../../components/HeaderPage';
+import { HorizontalBar } from '../../components/HorizontalBar';
+import { Footer } from '../../components/Footer';
+
+import { VscGithub, VscGithubAlt } from 'react-icons/vsc';
 
 import imgDeveloperOne from '../../assets/developerOne.jpg';
 import imgDeveloperTwo from '../../assets/developerTwo.jpg';
 
 import styles from './style.module.scss';
-import { HorizontalBar } from '../../components/HorizontalBar';
-import { Footer } from '../../components/Footer';
 
 export function ContributePlatform() {
   return (
@@ -20,22 +22,15 @@ export function ContributePlatform() {
             Você <span>Desenvolvedor</span> pode nos ajudar
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            suscipit quis possimus vel odit. Laboriosam, pariatur ea ex, a neque
-            quisquam maxime veniam, in cupiditate tempora vitae voluptate eius
-            eaque.
+            Você Dev, que tem uma ideia de como contribuir com a plataforma,
+            ajudando ela a ficar melhor, com mais funcionalidades, pode entrar
+            em contato conosco através da nossa pagina de contato.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsam
-            delectus excepturi est sapiente harum amet labore vitae omnis, non
-            tenetur. Alias voluptatem suscipit, sequi officia recusandae iure
-            nemo odit?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsam
-            delectus excepturi est sapiente harum amet labore vitae omnis, non
-            tenetur. Alias voluptatem suscipit, sequi officia recusandae iure
-            nemo odit?
+            E não só você Dev front-end ou back-end, você que também é
+            desenvolvedor de banco de dados, engenheiro de dados, analista de
+            sistema, independente da sua formação, você pode contribuir com a
+            plataforma.
           </p>
         </div>
         <div className={styles.imgContribute}>
@@ -45,6 +40,20 @@ export function ContributePlatform() {
           <img src={imgDeveloperTwo} alt="" />
         </div>
       </main>
+
+      <div className={styles.containerGit}>
+        <div className={styles.row}>
+          <a href="/">
+            {' '}
+            <VscGithub /> Site
+          </a>
+
+          <a href="/">
+            Plataforma <VscGithubAlt />
+          </a>
+        </div>
+      </div>
+
       <HorizontalBar />
       <Footer />
     </>
