@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { HeaderPage } from '../../components/HeaderPage';
 import { HorizontalBar } from '../../components/HorizontalBar';
 import { Footer } from '../../components/Footer';
@@ -84,19 +85,7 @@ export function About() {
           <p>
             Você <span>desenvolvedor</span> pode nos ajudar, contribuindo na
             nossa plataforma, sugerindo modificações, sugestões. Para contribuir
-            na plataforma, baixe o nosso projeto e faça sua modificações:
-            <ul>
-              <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  Site
-                </a>
-              </li>
-              <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  Plataforma
-                </a>
-              </li>
-            </ul>
+            na plataforma, <Link to="/contribute">clique aqui</Link>
           </p>
         </div>
 

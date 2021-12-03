@@ -4,7 +4,8 @@ import { Home } from './pages/Home/index';
 import { About } from './pages/About/index';
 import { Contact } from './pages/Contact/index';
 import { Mobile } from './pages/Mobile/index';
-import { Documentation } from './pages/Documentation/index';
+import { PrivacyPolicy } from './pages/PrivacyPolicy/index';
+import { Terms } from './pages/Terms/index';
 import { License } from './pages/License/index';
 import { Team } from './pages/Team/index';
 import { ContributePlatform } from './pages/ContributePlatform/index';
@@ -17,7 +18,8 @@ export function Routes() {
       <Route path="/contact" exact component={Contact} />
       <Route path="/team" exact component={Team} />
       <Route path="/app-mobile" exact component={Mobile} />
-      <Route path="/documentation" exact component={Documentation} />
+      <Route path="/privacy-policy" exact component={PrivacyPolicy} />
+      <Route path="/terms" exact component={Terms} />
       <Route path="/license" exact component={License} />
       <Route path="/contribute" exact component={ContributePlatform} />
     </BrowserRouter>

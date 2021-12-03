@@ -32,6 +32,17 @@ export function ContributePlatform() {
             sistema, independente da sua formação, você pode contribuir com a
             plataforma.
           </p>
+
+          <div className={styles.containerProjectsGitHub}>
+            <a href="https://github.com/LucasAnselmoSilva12345/Talk-To-The-Campus">
+              {' '}
+              <VscGithub /> Site
+            </a>
+
+            <a href="https://github.com/LucasAnselmoSilva12345/app_Talk_To_The_Campus">
+              <VscGithubAlt /> Plataforma
+            </a>
+          </div>
         </div>
         <div className={styles.imgContribute}>
           <img src={imgDeveloperOne} alt="" />
@@ -40,19 +51,6 @@ export function ContributePlatform() {
           <img src={imgDeveloperTwo} alt="" />
         </div>
       </main>
-
-      <div className={styles.containerGit}>
-        <div className={styles.row}>
-          <a href="/">
-            {' '}
-            <VscGithub /> Site
-          </a>
-
-          <a href="/">
-            Plataforma <VscGithubAlt />
-          </a>
-        </div>
-      </div>
 
       <HorizontalBar />
       <Footer />

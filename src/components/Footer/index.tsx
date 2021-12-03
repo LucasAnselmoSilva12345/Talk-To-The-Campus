@@ -54,7 +54,10 @@ export function Footer() {
             <h4>A plataforma</h4>
             <ul>
               <li>
-                <Link to="/documentation"> Documentação </Link>
+                <Link to="/privacy-policy"> Política de Privacidade </Link>
+              </li>
+              <li>
+                <Link to="/terms">Termos</Link>
               </li>
               <li>
                 <Link to="/license"> Licença da plataforma </Link>
@@ -62,39 +65,36 @@ export function Footer() {
               <li>
                 <Link to="/contribute"> Contribua com a plataforma </Link>
               </li>
-              <li>
-                <Link to="/"> Ajude a comunidade Open-Source </Link>
-              </li>
             </ul>
           </div>
 
           <div className={styles.footerCol}>
             <h4>Redes Sociais</h4>
             <div className={styles.socialLink}>
-              <Link to="/">
+              <a href="https://github.com/LucasAnselmoSilva12345">
                 {' '}
                 <FaGithub />{' '}
-              </Link>
+              </a>
 
-              <Link to="/">
+              <a href="https://web.facebook.com/lucas.anselmomoraesdasilva">
                 {' '}
                 <FaFacebook />{' '}
-              </Link>
+              </a>
 
-              <Link to="/">
+              <a href="https://www.instagram.com/lucas_anselmo2025/">
                 {' '}
                 <FaInstagram />{' '}
-              </Link>
+              </a>
 
-              <Link to="/">
+              <a href="https://twitter.com/LucasAnselmo202">
                 {' '}
                 <FaTwitter />{' '}
-              </Link>
+              </a>
 
-              <Link to="/">
+              <a href="https://www.linkedin.com/in/lucas-anselmo-moraes-da-silva-543636161/">
                 {' '}
                 <FaLinkedin />{' '}
-              </Link>
+              </a>
             </div>
           </div>
         </div>

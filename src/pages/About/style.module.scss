@@ -84,16 +84,9 @@
         font-weight: bold;
       }
 
-      ul {
-        li {
-          a {
-            color: var(--WhiteTheme_0);
-            margin-left: 0.5rem;
-          }
-          & + li {
-            margin-top: 0.5rem;
-          }
-        }
+      a {
+        color: var(--BlueTheme_5);
+        text-decoration: underline;
       }
     }
   }
