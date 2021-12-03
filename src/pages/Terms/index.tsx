@@ -52,7 +52,7 @@ export function Terms() {
             dessas restrições e poderá ser rescindida por Talk to the Campus a
             qualquer momento. Ao encerrar a visualização desses materiais ou
             após o término desta licença, você deve apagar todos os materiais
-            baixados em sua posse, seja em formato eletrónico ou impresso.
+            baixados em sua posse, seja em formato eletrônico ou impresso.
           </p>
           <h4>3. Isenção de responsabilidade</h4>
           <ul>
@@ -81,7 +81,7 @@ export function Terms() {
             autorizado da Talk to the Campus tenha sido notificado oralmente ou
             por escrito da possibilidade de tais danos. Como algumas jurisdições
             não permitem limitações em garantias implícitas, ou limitações de
-            responsabilidade por danos conseqüentes ou incidentais, essas
+            responsabilidade por danos consequentes ou incidentais, essas
             limitações podem não se aplicar a você.
           </p>
           <h4>5. Precisão dos materiais</h4>

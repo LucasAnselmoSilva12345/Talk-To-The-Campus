@@ -18,12 +18,12 @@ export function PrivacyPolicy() {
           </p>
           <p>
             Solicitamos informações pessoais apenas quando realmente precisamos
-            delas para lhe fornecer um serviço. Fazemo-lo por meios justos e
+            delas para lhe fornecer um serviço. Fazendo por meios justos e
             legais, com o seu conhecimento e consentimento. Também informamos
             por que estamos coletando e como será usado.
           </p>
           <p>
-            Apenas retemos as informações coletadaspelo tempo necessário para
+            Apenas retemos as informações coletadas pelo tempo necessário para
             fornecer o serviço solicitado. Quando armazenamos dados, protegemos
             dentro de meios comercialmente aceitáveis ​​para evitar perdas e
             roubos, bem como acesso, divulgação, cópia, uso ou modificação não
@@ -48,7 +48,7 @@ export function PrivacyPolicy() {
             O uso continuado de nosso site será considerado como aceitação de
             nossas práticas em torno de privacidade e informações pessoais. Se
             você tiver alguma dúvida sobre como lidamos com dados do usuário e
-            informações pessoais, entre em contacto connosco.
+            informações pessoais, entre em contacto conosco.
           </p>
           <h4>Compromisso do Usuário</h4>
           <p>

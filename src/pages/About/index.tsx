@@ -18,19 +18,18 @@ export function About() {
         <div className={styles.aboutInfo}>
           <h1>Sobre nossa aplicação</h1>
           <p>
-            O objetivo da plataforma é permite que as instituições de ensino
+            O objetivo da plataforma é permitir que as instituições de ensino
             (faculdades, escolas tecnicas), possam conectar seus alunos, junto
-            com os futuros alunos ingressantes, afim de proporciona uma iteração
-            direta de alunos para aluno, na intenção, que o futuro estudante,
-            possa retirar duvida que ele tem sobre seu futuro curso, ou qualquer
-            duvida relacionado do tipo.
+            com os futuros ingressantes, na intenção de proporcionar uma
+            iteração direta de alunos para aluno, com foco, em que o futuro
+            estudante, possa retirar suas dúvida que ele tem sobre seu futuro
+            curso, ou qualquer dúvida relacionado do tipo.
           </p>
           <p>
-            A intenção dessa iteração, e permite que o aluno ingressante, tenha
-            total ciencia de que o curso desejado por ele, é de fato o que ele
-            imagina e além de retirar as duvidas, motivar ainda mais o aluno a
-            querer prestar os vestibulares para entrar no campus e estudar o
-            curso.
+            A intenção dessa iteração, é garantir que o aluno ingressante, tenha
+            total ciência de que o curso desejado por ele, é de fato o que ele
+            imagina e além de retirar as dúvidas, motivar ainda mais o aluno a
+            querer prestar os vestibulares para entrar no campus.
           </p>
         </div>
         <div className={styles.aboutImg}>
@@ -54,9 +53,9 @@ export function About() {
         </div>
 
         <div className={styles.qualitiesItem}>
-          <h2>Nossas inteções</h2>
+          <h2>Nossas intenções</h2>
           <p>
-            Permitir a retirada total de duvidas dos futuros alunos em cursos
+            Permitir a retirada total de dúvidas dos futuros alunos em cursos
             superiores, garantindo que o aluno tenha total certeza de como é o
             curso desejado e ajudando a faculdade nas divulgações.
           </p>

@@ -7,10 +7,10 @@ export function DesktopApplication() {
     <div className={styles.containerApplication}>
       <div className={styles.containerContentApplication}>
         <div className={styles.textApplication}>
-          <h4>informe suas duvidas</h4>
+          <h4>Informe suas dúvidas</h4>
           <h2>Envie suas questões para serem respondidas</h2>
           <span>
-            Utilize nossa plataforma obter a resposta para aquela duvida, que
+            Utilize nossa plataforma obter a resposta para aquela dúvida, que
             está te incomodando
           </span>
         </div>

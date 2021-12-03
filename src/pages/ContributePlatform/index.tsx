@@ -23,8 +23,9 @@ export function ContributePlatform() {
           </h1>
           <p>
             Você Dev, que tem uma ideia de como contribuir com a plataforma,
-            ajudando ela a ficar melhor, com mais funcionalidades, pode entrar
-            em contato conosco através da nossa pagina de contato.
+            ajudando há melhorar a estrutura, adicionar mais funcionalidades, ou
+            outras ideias, pode entrar em contato conosco através da nossa
+            pagina de contato.
           </p>
           <p>
             E não só você Dev front-end ou back-end, você que também é

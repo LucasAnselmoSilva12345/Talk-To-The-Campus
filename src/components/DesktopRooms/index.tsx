@@ -9,11 +9,11 @@ export function DesktopRooms() {
           <img src={ImgDesktopRooms} alt="Imagem de computador" />
         </div>
         <div className={styles.textRooms}>
-          <h4>Faça login na plataforma</h4>
-          <h2>Crie/Entre e participe das salas</h2>
+          <h4>Agora é só aguardar</h4>
+          <h2>Após sua dúvida ser enviado para nós</h2>
           <span>
-            Utilize nossa plataforma para garantir a boa comunicação entre aluno
-            e futuros ingressantes
+            Os alunos que estão respondendo as perguntas, logo logo vão
+            esclarecer sua dúvida.
           </span>
         </div>
       </div>

@@ -28,7 +28,7 @@ export function Principles() {
         <ul>
           <li>Investir na educação</li>
           <li>Preservar o respeito</li>
-          <li>Motivar o apreendizado</li>
+          <li>Motivar o aprendizado</li>
           <li>Garantir os ensinamentos</li>
         </ul>
       </div>
