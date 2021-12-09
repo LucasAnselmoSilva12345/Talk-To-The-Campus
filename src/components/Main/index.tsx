@@ -36,7 +36,7 @@ export function Main() {
               Acessar Plataforma <VscArrowRight />{' '}
             </Link>
             <Link to="/app-mobile">
-              Plataforma Mobile <VscDeviceMobile />
+              Aplicativo Mobile <VscDeviceMobile />
             </Link>
           </div>
         </section>

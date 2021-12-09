@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { HeaderPage } from '../../components/HeaderPage';
 import { HorizontalBar } from '../../components/HorizontalBar';
 import { Footer } from '../../components/Footer';
@@ -25,7 +26,7 @@ export function ContributePlatform() {
             Você Dev, que tem uma ideia de como contribuir com a plataforma,
             ajudando há melhorar a estrutura, adicionar mais funcionalidades, ou
             outras ideias, pode entrar em contato conosco através da nossa
-            pagina de contato.
+            <Link to="/contato"> página de contato.</Link>
           </p>
           <p>
             E não só você Dev front-end ou back-end, você que também é

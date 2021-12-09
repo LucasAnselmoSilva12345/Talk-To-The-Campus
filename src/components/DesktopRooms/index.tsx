@@ -10,10 +10,10 @@ export function DesktopRooms() {
         </div>
         <div className={styles.textRooms}>
           <h4>Agora é só aguardar</h4>
-          <h2>Após sua dúvida ser enviado para nós</h2>
+          <h2>Após sua dúvida ser enviada para nós</h2>
           <span>
-            Os alunos que estão respondendo as perguntas, logo logo vão
-            esclarecer sua dúvida.
+            Os alunos que estão respondendo as perguntas, logo irão esclarecer
+            essa dúvida.
           </span>
         </div>
       </div>

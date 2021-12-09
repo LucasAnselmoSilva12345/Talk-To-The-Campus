@@ -14,11 +14,12 @@ export function Mobile() {
       <main className={styles.containerMobile}>
         <div className={styles.rowMobileButton}>
           <h3>
-            Lamentamos 😓 , nosso aplicativo para dispositivos moveis, ainda
-            está sendo construido pelo nosso time de desenvolvedores
+            Lamentamos 😓 , nosso aplicativo ainda está sendo construido pelo
+            nosso time de desenvolvedores.
           </h3>
           <h4>
-            Porém, você pode acessar a plataforma pelo seu proprio navegador
+            Entretanto, você pode acessar a plataforma pelo seu próprio
+            navegador
           </h4>
           <div className={styles.rowButton}>
             <Link to="/">

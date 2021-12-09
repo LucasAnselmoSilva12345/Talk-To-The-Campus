@@ -9,7 +9,7 @@ export function HorizontalBar() {
     <div className={styles.containerHorizontalBar}>
       <div className={styles.containerHorizontalBarText}>
         <h2>Acesse nossa plataforma</h2>
-        <p>e já faça o download da nosso aplicativo para seu celular</p>
+        <p>e faça o download da nosso aplicativo para seu celular</p>
       </div>
       <div className={styles.containerHorizontalBarButton}>
         <Link to="/" className={styles.btnPlataform}>

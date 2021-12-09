@@ -6,30 +6,30 @@ export function Principles() {
       <div className={styles.valuesItem}>
         <h2>Missão</h2>
         <ul>
-          <li>Ajudar alunos ingressantes em cursos superiores.</li>
-          <li>Ajudar as faculdades na divulgação dos seus cursos.</li>
-          <li>Fazer o aluno entrar no curso certo, e no lugar certo.</li>
-          <li>Fazer as faculdades esclarecer tudo sobre seus cursos.</li>
+          <li>Proporciona a entrada de pessoas em cursos superiores.</li>
+          <li>Contribuir com as divulgações de cursos das faculdades.</li>
+          <li>Ajudar o aluno entrar no curso certo, e no lugar certo.</li>
+          <li>Esclarecimentos sobre seus cursos de ensino superior.</li>
         </ul>
       </div>
 
       <div className={styles.valuesItem}>
         <h2>Visão</h2>
         <ul>
-          <li>Ajudar o maximo de pessoas possíveis</li>
-          <li>Fazer uma plataforma acessível à todos</li>
-          <li>Permitir a contribuição de varios dev na plataforma</li>
-          <li>Ajudar toda a comunidade de ingressantes com essa plataforma</li>
+          <li>Ajudar todas as pessoas possíveis.</li>
+          <li>Uma plataforma acessível para todos.</li>
+          <li>Permitir a contribuição de vários dev na plataforma.</li>
+          <li>Proporciona uma plataforma livre e de acesso para todos.</li>
         </ul>
       </div>
 
       <div className={styles.valuesItem}>
         <h2>Valores</h2>
         <ul>
-          <li>Investir na educação</li>
-          <li>Preservar o respeito</li>
-          <li>Motivar o aprendizado</li>
-          <li>Garantir os ensinamentos</li>
+          <li>Investir na formação de jovens em ensino superior.</li>
+          <li>Preservar o respeito em toda a comunidade estudantil.</li>
+          <li>Motivar o aprendizado de alunos.</li>
+          <li>Garantir a entrada de alunos em cursos superiores.</li>
         </ul>
       </div>
     </section>

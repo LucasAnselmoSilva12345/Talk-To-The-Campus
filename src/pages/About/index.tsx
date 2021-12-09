@@ -66,16 +66,16 @@ export function About() {
           <p>
             Contribuir com as faculdades locais em nossa região, depois realizar
             contribuições com todas as faculdade do estado, e mais para frente,
-            todas as faculdade do Brasil
+            todas as faculdade do Brasil.
           </p>
         </div>
 
         <div className={styles.qualitiesItem}>
           <h2>Expansão da plataforma</h2>
           <p>
-            Hoje nossa plataforma só está atendendo em questão de retirada de
+            Hoje nossa plataforma está apenas atendendo questões de retirada de
             dúvidas em cursos superiores, porém futuramente, iremos atender as
-            escolas tecnicas e escolas particulares/públicas
+            escolas técnicas e escolas particulares/públicas.
           </p>
         </div>
 
