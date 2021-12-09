@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import {
   FaGithub,
   FaFacebook,
@@ -6,7 +8,6 @@ import {
   FaLinkedin,
 } from 'react-icons/fa';
 
-import { Link } from 'react-router-dom';
 import styles from './style.module.scss';
 
 export function Footer() {

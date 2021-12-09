@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import { HeaderPage } from '../../components/HeaderPage';
+import { Footer } from '../../components/Footer';
+
 import { RiComputerLine } from 'react-icons/ri';
 
 import ImgMobile from '../../assets/appMobile.svg';
 
 import styles from './style.module.scss';
-import { Footer } from '../../components/Footer';
 
 export function Mobile() {
   return (

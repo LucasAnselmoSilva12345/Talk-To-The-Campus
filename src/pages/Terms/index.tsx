@@ -1,6 +1,7 @@
-import { Footer } from '../../components/Footer';
 import { HeaderPage } from '../../components/HeaderPage';
 import { HorizontalBar } from '../../components/HorizontalBar';
+import { Footer } from '../../components/Footer';
+
 import styles from './style.module.scss';
 
 export function Terms() {

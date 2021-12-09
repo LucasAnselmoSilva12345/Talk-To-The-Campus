@@ -1,5 +1,4 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 import BgCardImg from '../../assets/team/bg_card.jpg';
 import ProfileImg from '../../assets/team/LucasAnselmo.jpeg';

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { HeaderPage } from '../../components/HeaderPage';
+import { Principles } from '../../components/Principles';
 import { HorizontalBar } from '../../components/HorizontalBar';
 import { Footer } from '../../components/Footer';
-import { Principles } from '../../components/Principles';
 
 import ImgAboutOne from '../../assets/about1.jpg';
 import ImgAboutTwo from '../../assets/about2.jpg';
