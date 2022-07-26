@@ -32,9 +32,9 @@ export function Main() {
             <p>Crie ou acesses salas para permitir a boa comunicação</p>
           </div>
           <div className={styles.buttonSection}>
-            <Link to="/">
+            <a href="https://github.com/LucasAnselmoSilva12345/app_Talk_To_The_Campus">
               Acessar Plataforma <VscArrowRight />{' '}
-            </Link>
+            </a>
             <Link to="/app-mobile">
               Aplicativo Mobile <VscDeviceMobile />
             </Link>

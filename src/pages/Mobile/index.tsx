@@ -23,9 +23,9 @@ export function Mobile() {
             navegador
           </h4>
           <div className={styles.rowButton}>
-            <Link to="/">
+            <a href="https://github.com/LucasAnselmoSilva12345/app_Talk_To_The_Campus">
               Plataforma Web <RiComputerLine />{' '}
-            </Link>
+            </a>
           </div>
         </div>
         <div className={styles.rowImage}>
